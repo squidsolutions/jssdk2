@@ -1,6 +1,8 @@
 jssdk2
 ======
 
+[![Join the chat at https://gitter.im/squidsolutions/jssdk2](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/squidsolutions/jssdk2?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 The JSSDK core library (Version 2)
 
 Provides the base services to build an app using the Squid Analyitcs API. 
