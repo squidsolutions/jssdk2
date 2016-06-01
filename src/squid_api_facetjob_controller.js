@@ -496,7 +496,8 @@
 	            for (i = 0; ((i < facets.length)); i++) {
 	                var facet1 = facets[i];
 	                if (facet1.dimension.parentId) {
-	                    if (facetMap[facet1.dimension.parentId.dimensionId].id === facet.id) {
+	                	var facet1parent = facetMap[facet1.dimension.parentId.dimensionId];
+	                    if (!(facet1parent === null) && facet1parent.id === facet.id) {
 	                    	this.unSelectChildren(facets, facet1, true);
 	                    }
 	                }
